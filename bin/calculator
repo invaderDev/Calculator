@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/calculator'
+
+puts "Welcome to CLI Calculator."
+
+calc = Calculator.new([])
+
+calc.get_input
