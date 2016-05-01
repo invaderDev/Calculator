@@ -10,3 +10,5 @@
 
 **No test suite available. Will write tests as funcionality is added.
 
+lib/calculator.rb
+bin/calculator
