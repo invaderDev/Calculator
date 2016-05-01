@@ -5,10 +5,11 @@
 
 5.1.2016
 
-**App is now functional from command line. Only very basic operations may be performed
+* App is now functional from command line. Only very basic operations may be performed
 (i.e. "2 + 2", "3 / 4")
 
-**No test suite available. Will write tests as funcionality is added.
+*No test suite available. Will write tests as funcionality is added.
 
-lib/calculator.rb
-bin/calculator
+Relevant files:
+* lib/calculator.rb
+* bin/calculator
