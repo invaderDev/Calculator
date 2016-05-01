@@ -1,14 +1,14 @@
-== README
+= README
 
 * CLI Calculator App
 * Ruby version: 2.3.0
 
 
-= Version 1.0
+== Version 1.0
 * App is now functional from command line. Only very basic operations may be performed
 (i.e. "2 + 2", "3 / 4")
 
-= Version 1.0.1
+== Version 1.0.1
 * App can now handle the following operations on single digit
 integers: +, -, *, /, %
 
