@@ -2,7 +2,7 @@
 
 require_relative '../lib/calculator'
 
-puts "Welcome to CLI Calculator."
+puts "Welcome to a broke-ass CLI Calculator."
 
 calc = Calculator.new([])
 

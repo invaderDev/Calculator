@@ -10,10 +10,17 @@ class Calculator
     fill_input_array(input)
   
     if valid_input?
-      puts "The result is **#{calculate}**"
-      get_input
+      if calculate.to_s.include?(".0")
+        puts "The answer is obviously #{calculate.to_i}!"
+        puts "Learn math dummy."
+        get_input
+      else
+        puts "The answer is obviously #{calculate}!"
+        puts "Learn math dummy."
+        get_input
+      end
     else
-      puts "Invalid input. Please try again."
+      puts "You did it wrong. Try again."
       get_input
     end
   end
@@ -34,7 +41,7 @@ class Calculator
   end
   
   def operand?
-    @input_array[1] == "+" || @input_array[1] == "-" || @input_array[1] == "*" || @input_array[1] == "/"
+    @input_array[1] == "+" || @input_array[1] == "-" || @input_array[1] == "*" || @input_array[1] == "/" || @input_array[1] == "%"
   end
   
   def valid_ints?
